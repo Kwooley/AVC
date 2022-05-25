@@ -1,4 +1,3 @@
-import java.sql.Time;
 import java.util.Random;
 
 public class ifelse {
@@ -7,7 +6,7 @@ public class ifelse {
 		int num = rd.nextInt(100);
 
 		if (num % 2 == 0) {
-			System.out.println(Integer.toString(num) + " is an Even number");
+			System.out.println(num + " is an Even number");
 		} else {
 			System.out.println(num + " is an odd number");
 		}

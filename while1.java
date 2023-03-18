@@ -7,6 +7,7 @@ public class while1 {
 		int num;
 
 		while (flag) {
+			System.out.print("Enter a number: ");
 			num = sc.nextInt();
 			System.out.println("Input number is " + num);
 			if (num == -1)

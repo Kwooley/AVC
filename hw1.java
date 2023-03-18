@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class hw1 {
+
 	public static void main(String[] args) {
 		final int N = 5;
 		int[] num = new int[N];
